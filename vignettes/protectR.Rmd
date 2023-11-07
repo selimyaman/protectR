@@ -1,0 +1,23 @@
+---
+title: "protectR"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{protectR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(protectR)
+```
+
+Regularization techniques like Lasso have become integral in the predictive modeling toolkit, offering a way to handle high-dimensionality in data. However, when it comes to domains like political science or other social sciences, where theoretical insights are as crucial as empirical findings, the standard Lasso approach can inadvertently diminish the role of key variables grounded in theory.
+
+The ProtectR package presents a novel solution: **the Partially-Protected Bayesian Lasso**. This method specifically allows researchers to integrate their substantive knowledge into model selection, preserving the influence of variables deemed theoretically essential. By utilizing this approach, we offer a pathway to create models that not only boast high predictive accuracy but also respect the theoretical framework that guides the research.
