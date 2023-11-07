@@ -2,17 +2,8 @@
 
 <img src="man/figures/logo.png" align="right"  height="200"/>
 
-`r badge_lifecycle("maturing", "blue")`
-`r badge_last_commit("selimyaman/protectR")`
-
-```{r eval=FALSE, include=FALSE}
-#this part normally should be outside of the code chunk:
-<!-- badges: start -->
-  [![R-CMD-check](https://github.com/selimyaman/protectR/workflows/R-CMD-check/badge.svg)](https://github.com/selimyaman/protectR/actions)
-<!-- badges: end -->
-# this is the code to renew readme file
-  devtools::build_readme()
-```
+[![](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#maturing)
+[![](https://img.shields.io/github/last-commit/selimyaman/protectR.svg)](https://github.com/selimyaman/protectR/commits/master)
 
 `protectR` is an R package designed for researchers who utilize regularization methods but also want to incorporate theory when applying these methods. This package allows users to partically protect theoretically important variables from shrinkage when using regularization techniques like Lasso.
 
