@@ -22,6 +22,7 @@ A dataframe with the names of the predictor variables, mean of the beta coeffici
 This function extracts the model coefficients and calculates their credible intervals, also checking if zero is contained within these intervals.
 }
 \examples{
+library(protectR)
 n <- 50
 x1 <- sample(c("A", "B"), n, replace = TRUE)
 x1[sample(n, 10)] <- NA  # add missing values to the first column

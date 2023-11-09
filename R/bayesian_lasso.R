@@ -35,7 +35,6 @@
 #' @importFrom MCMCpack rinvgamma
 #' @export
 #'
-?usethis::use_vignette()
 bayesian_lasso <- function(df, outcome_var, protected_vars = NULL, save_output = FALSE, num.reps = 10000, a = 1, b = 0.1, burn = 501, seed =123,
                            output_name="bayesian_lasso_output") {
 

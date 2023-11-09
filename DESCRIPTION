@@ -1,7 +1,22 @@
 Package: protectR
 Title: Bayesian Lasso with Protection
 Version: 0.0.0.9000
-Authors@R: c(person(given = "Selim", family = "Yaman", email = "selimyaman26@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-4723-5512")))
+Authors@R: c(
+    person(given = "Selim", 
+           family = "Yaman", 
+           email = "selimyaman26@gmail.com", 
+           role = c("aut", "cre"), 
+           comment = c(ORCID = "0000-0003-4723-5512")),
+    person(given = "Yasir", 
+           family = "Atalan", 
+           email = "ayasiratalan@gmail.com", 
+           role = c("aut"), 
+           comment = c(ORCID = "0009-0003-9219-4833")),
+    person(given = "Jeff", 
+           family = "Gill", 
+           email = "jgill@american.edu", 
+           role = c("aut"), 
+           comment = c(ORCID = "0000-0002-8592-8996")))
 Description: This package implements Bayesian Partially-Protected Lasso regression. Compared to standard Bayesian Lasso, it has some additional protective features for robust statistical inference.
 License: MIT + file LICENSE
 Encoding: UTF-8

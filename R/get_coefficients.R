@@ -10,6 +10,7 @@
 #' @return A dataframe with the names of the predictor variables, mean of the beta coefficients, lower and upper bounds of the credible intervals, and a logical flag indicating if zero is contained within the interval.
 #'
 #' @examples
+#' library(protectR)
 #' n <- 50
 #' x1 <- sample(c("A", "B"), n, replace = TRUE)
 #' x1[sample(n, 10)] <- NA  # add missing values to the first column
